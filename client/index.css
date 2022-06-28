@@ -1,0 +1,56 @@
+body {
+  background-color: #aaa;
+}
+
+.title {
+  text-align: center;
+}
+
+#metawidget {
+  width           : 375px;
+  margin          : 50px auto;
+  padding         : 10px;
+  border          : 1px solid #cccccc;
+  border-radius   : 10px;
+  background-color: #fff;
+  box-shadow      : 0px 0px 5px #000;
+}
+
+#metawidget button {
+  padding         : 10px 20px;
+  background-color: #0275d8;
+  color           : #fff;
+  outline         : none;
+  border          : none;
+}
+
+#metawidget button:active {
+  transform: scale(0.9);
+}
+
+#metawidget th {
+  min-width : 80px;
+  text-align: left;
+}
+
+#metawidget tr {
+  display: block;
+  margin : 10px 0;
+}
+
+#metawidget tr h1 {
+  margin   : 15px 0 0 0;
+  font-size: 18px;
+}
+
+#table-memberDetailMember-label-cell {
+  display: none;
+}
+
+#table-memberDetailMemberAddress-label-cell {
+  display: none;
+}
+
+#table-memberDetailMemberAddress {
+  transform: translateX(-5px);
+}
